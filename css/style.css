@@ -1,0 +1,228 @@
+
+
+body{
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+}
+
+header{
+    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
+    background: var(--WHITE, #FFF);
+}
+
+.logo{
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.16; 
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+span{
+    color: var(--IRIS, #4D5AE5);
+    font-family: "Raleway";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.16; 
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.main-links{
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.50; 
+    letter-spacing: 0.32px;
+}
+
+.main-links li{
+    list-style: none;
+}
+
+.main-links a{
+    text-decoration: none;
+    color: var(--NAVY-BLUE, #2E2F42);
+}
+
+.main-links a:hover{
+    color: var(--OCEAN, #404BBF);
+}
+
+.adress-list{
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.50;
+    letter-spacing: 0.32px;
+}
+
+.adress-list li{
+    list-style: none;
+}
+
+.adress-list a{
+    text-decoration: none;
+    color: var(--SLATE, #434455);
+}
+
+.adress-list a:hover{
+    color: #404BBF;
+}
+
+.block-with-order-button{
+    background: var(--NAVY-BLUE, #2E2F42);
+}
+
+.block-with-order-button h1{
+    color: var(--WHITE, #FFF);
+    text-align: center;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+}
+
+.block-with-order-button button{
+    border-radius: 4px;
+    background: var(--IRIS, #4D5AE5);
+    color: var(--WHITE, #FFF);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.50;
+    letter-spacing: 0.64px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.block-with-order-button button:hover{
+    background: var(--OCEAN, #404BBF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.features{
+    background: #FFF
+}
+
+.features li{
+    list-style: none;
+}
+
+.features h3{
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.20; 
+    letter-spacing: 0.4px;
+}
+
+.features p{
+    color: var(--SLATE, #434455);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.50; 
+    letter-spacing: 0.32px;
+}
+
+.team{
+    background: var(--CLOUD, #F4F4FD);
+}
+
+.team li{
+    list-style: none;
+}
+
+.team h3{
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.20; 
+    letter-spacing: 0.4px;
+}
+
+.team p{
+    color: var(--SLATE, #434455);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.50; 
+    letter-spacing: 0.32px;
+}
+
+.portfolio{
+    background: #FFF;
+}
+
+.portfolio li{
+    background: #FFF;
+    list-style: none;
+}
+
+h2{
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11; 
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.portfolio h4{
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.20;
+    letter-spacing: 0.4px;
+}
+
+.portfolio p{
+    color: var(--SLATE, #434455);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.50; 
+    letter-spacing: 0.32px;
+}
+
+footer{
+    background: var(--NAVY-BLUE, #2E2F42);
+}
+
+.footer-logo{
+    color: var(--CLOUD, #F4F4FD);
+    font-family: "Raleway";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer p{
+    color: var(--CLOUD, #F4F4FD);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.50; 
+    letter-spacing: 0.32px;
+}

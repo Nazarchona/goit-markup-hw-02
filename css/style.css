@@ -10,11 +10,11 @@ header{
 
 .logo{
     color: var(--NAVY-BLUE, #4d5ae5);
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.16; 
+    line-height: 1.17; 
     letter-spacing: 0.54px;
     text-transform: uppercase;
     text-decoration: none;
@@ -42,7 +42,7 @@ nav a{
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 1.50; 
+    line-height: 1.5; 
     letter-spacing: 0.32px;
 }
 
@@ -158,13 +158,18 @@ nav a{
 
 .team .title{
     text-align: center;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 
-.team-list-first-paragraph{
+.team-list-paragraph{
     background-color: #FFFFFF;
 }
 
-.first-paragraph-text{
+.paragraph-text{
     font-size: 16px;
 }
 
@@ -199,7 +204,7 @@ nav a{
     list-style: none;
 }
 
-.portfolio .title{
+.portfolio h2{
     color: var(--NAVY-BLUE, #2E2F42);
     font-size: 36px;
     font-style: normal;
@@ -238,7 +243,7 @@ footer{
 
 .footer-logo{
     color: var(--CLOUD, #4d5ae5);
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
